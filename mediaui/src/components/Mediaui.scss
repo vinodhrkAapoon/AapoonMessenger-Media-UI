@@ -1,0 +1,93 @@
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #e25630 !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  text-transform: none !important;
+}
+.css-1aquho2-MuiTabs-indicator {
+  background-color: unset !important;
+}
+.imageList {
+  width: 100% !important;
+  height: 450px !important;
+  overflow-y: auto !important;
+  display: grid !important;
+  margin: auto;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  border-radius: 8px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.imagePreviousArrow{
+  font-size: 50px !important;
+  color: darkgrey !important;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.audioCard{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.audioHeadsetIcon{
+  font-size: 40px !important;
+    background-color: darkorange;
+    color: white;
+    border-radius: 2px;
+}
+.audioPausePlayIcon{
+  font-size: 30px !important;
+  color: lightgray !important;
+  background-color: black !important;
+  border-radius: 30px !important;
+}
+
+//documentList css
+.document-container {
+  display: flex !important;
+}
+.documentImage {
+  width: 40px !important;
+  height: 40px !important;
+  padding: 2px 2px !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.documentText {
+  margin-left: -39px;
+  margin-top: 19px;
+  color: white;
+  font-size: 12px;
+}
+.documentCard {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.documentCardText {
+  margin-left: 20px;
+}
